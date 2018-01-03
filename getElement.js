@@ -1,15 +1,15 @@
 function getElement(Method, Val) {
   switch (Method) {
-    case (Method == "id"):
+    case "id":
       return document.getElementById(Val);
       break;
-    case (Method == "class"):
+    case "class":
       return document.getElementsByClassName(Val);
       break;
-    case (Method == "tagname"):
+    case "tagname":
       return document.getElementsByTagName(Val);
       break;
-    case (Method == "name"):
+    case  "name":
       return document.getElementsByName(Val);
 
   }
